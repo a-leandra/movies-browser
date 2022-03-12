@@ -1,5 +1,4 @@
 /**
- * Entity classes for movies. Used for storing information (e.g.: in database)
- * and business level operations.
+ * Entity classes for movies.
  */
 package app.movie.entity;

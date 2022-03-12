@@ -1,5 +1,6 @@
 package app.movie.entity;
 
+import app.genre.entity.Genre;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
@@ -7,7 +8,7 @@ import java.time.LocalDate;
 
 /**
  * Entity for a movie belonging to the genre. Represents movie's basic information.
- * Also contains link to genre (see @link {@link //Genre}) for the sake of database relationship.
+ * Also contains link to genre (see @link {@link Genre}) for the sake of database relationship.
  */
 @Getter
 @Setter
@@ -25,5 +26,5 @@ public class Movie {
 
     private int overallRating;
 
-    //private Genre genre;
+    private Genre genre;
 }
